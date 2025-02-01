@@ -5,4 +5,4 @@ export default function Home() {
     </div>
   );
 }
-// Fluxo resumido - Ler QR Code - Entra tela Estabelecimento - Faz pedido - Recebe Senha - Retira Pedido
+// Fluxo resumido - Ler QR Code - Entra tela Estabelecimento - Faz pedido - Recebe Senha - Retirar pedido
