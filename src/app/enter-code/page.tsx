@@ -3,7 +3,6 @@ import { useState } from "react";
 import { QrReader } from "react-qr-reader";
 import { LibComponents } from "@/lib/components";
 
-
 const QRCodeInputPage = () => {
     const [code, setCode] = useState("");
     const [scanning, setScanning] = useState(false);
@@ -21,7 +20,7 @@ const QRCodeInputPage = () => {
 
     return (
         <div className="flex min-h-screen items-center justify-center bg-gray-100 p-4">
-            <div className="w-full max-w-md">
+            <div className="w-full max-w-md bg-lightGray rounded">
                 <div className="p-6 space-y-4">
                     <h1 className="text-xl font-semibold text-center">Digite um código ou escaneie um QR Code</h1>
                     <LibComponents.Input
