@@ -1,8 +1,6 @@
-export default function Home() {
-  return (
-    <div className="">
+import HomePage from "./home";
 
-    </div>
-  );
+export default function Home() {
+  return <HomePage />
 }
 // Fluxo resumido - Ler QR Code - Entra tela Estabelecimento - Faz pedido - Recebe Senha - Retirar pedido
