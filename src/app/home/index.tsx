@@ -4,7 +4,10 @@ import { HomeComponents } from './components'
 
 function HomePage() {
     return (
-        <HomeComponents.DescriptionContent />
+        <>
+            <HomeComponents.HeaderQueue />
+            <HomeComponents.DescriptionContent />
+        </>
     )
 }
 
